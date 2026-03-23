@@ -4,6 +4,7 @@ ProtoDUNE-SP is an 800-tonne liquid argon detector at CERN, built as a
 full-scale prototype for the DUNE experiment. It images particle 
 interactions in 3D by recording the trails of charge and light left 
 behind as particles traverse the liquid argon.
+
 <img src="https://raw.githubusercontent.com/vikasnt/vikasnt/main/protodune_event.png" width="600px">
 
 
