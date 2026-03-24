@@ -24,6 +24,7 @@ After applying geometric and kinematic selection cuts, the two-photon invariant 
 
 **2. Pion production cross-section**
 First measurement of the pion production channel in liquid argon, a key systematic input for neutrino energy reconstruction in DUNE.
+TBD
 
 ## Tools
 Python · C++ · ROOT · scikit-learn · NumPy · Matplotlib
