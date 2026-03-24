@@ -9,7 +9,16 @@ Raw detector signals are processed by Pandora, a multi-algorithm 3D reconstructi
 This repository contains analysis code built on top of these reconstructed objects, for two studies using 1 GeV pion beam data:
 
 **1. Neutral pion reconstruction**
-Reconstructing photon pair signatures from neutral pion decays in 3D detector images, used to calibrate shower reconstruction and validate detector energy response.
+
+Neutral pions decay almost instantly into two photons. Identifying this decay in 3D liquid argon detector images requires distinguishing photon-like showers from track-like particles, then selecting pairs whose directions converge to a common decay vertex. Reconstructing photon pair signatures from neutral pion decays is necessary to calibrate shower reconstruction and validate detector energy response.
+
+The CNN shower score distribution below shows how the reconstruction software separates photons and electrons (shower-like, score → 1) from muons, pions, and protons (track-like, score → 0), motivating the selection threshold used in the analysis.
+
+<img src="cnn_distribution.png" width="500px">
+
+After applying geometric and kinematic selection cuts, the two-photon invariant mass peaks near the known π⁰ mass of 135 MeV in both data and simulation, validating the shower energy reconstruction and the analysis pipeline.
+
+<img src="invariant_mass_stacked.png" width="500px">
 
 **2. Pion production cross-section**
 First measurement of the pion production channel in liquid argon, a key systematic input for neutrino energy reconstruction in DUNE.
