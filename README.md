@@ -12,6 +12,8 @@ This repository contains analysis code built on top of these reconstructed objec
 
 Neutral pions decay almost instantly into two photons. Identifying this decay in 3D liquid argon detector images requires distinguishing photon-like showers from track-like particles, then selecting pairs whose directions converge to a common decay vertex. Reconstructing photon pair signatures from neutral pion decays is necessary to calibrate shower reconstruction and validate detector energy response.
 
+Code: [pi0_analysis_full.ipynb](pi0_analysis_full.ipynb)
+
 The CNN shower score distribution below shows how the reconstruction software separates photons and electrons (shower-like, score → 1) from muons, pions, and protons (track-like, score → 0), motivating the selection threshold used in the analysis.
 
 <img src="cnn_distribution.png" width="500px">
