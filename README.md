@@ -27,4 +27,4 @@ First measurement of the pion production channel in liquid argon, a key systemat
 TBD
 
 ## Tools
-Python · C++ · ROOT · scikit-learn · NumPy · Matplotlib
+Python · NumPy · SciPy · Matplotlib · Shapely
